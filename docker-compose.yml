@@ -1,0 +1,13 @@
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
+    command: python main.py
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
+    command: npm start
