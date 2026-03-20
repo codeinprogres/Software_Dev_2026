@@ -4,7 +4,7 @@ Overview
 The Knotweed Detection Drone is an aerial system designed to identify Japanese Knotweed
 using vibration-based analysis. The goal of this project is to create a more efficient and scalable
 way to detect invasive plant species by combining drone flight, mechanical sensing, and
-real-time GPS tracking into one system.
+real-time GPS tracking into one system. This system is also intended to be used as an invasive species tracker for property, specifically to aid the visually impaired in keeping their houses safe as Knotweed can grow at a rapid pace in extremely large quantities. 
 Features
 Flight Capability
 The foundation of the project is a quad-propeller drone capable of stable, controlled flight. Each
