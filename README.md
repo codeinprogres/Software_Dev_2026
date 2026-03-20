@@ -1,3 +1,55 @@
-How to run this:
+Knotweed Detection Drone
+A TSA State Software Development Project
+Overview
+The Knotweed Detection Drone is an aerial system designed to identify Japanese Knotweed
+using vibration-based analysis. The goal of this project is to create a more efficient and scalable
+way to detect invasive plant species by combining drone flight, mechanical sensing, and
+real-time GPS tracking into one system.
+Features
+Flight Capability
+The foundation of the project is a quad-propeller drone capable of stable, controlled flight. Each
+motor has been calibrated with counterweights to improve thrust-to-weight balance and reduce
+instability during operation. The drone is designed to provide enough power for lift and
+maneuverability while maintaining a sustainable flight duration.
+Vibration-Sensing Arm
+The project includes a custom-built arm attachment that evaluates plant frequencies to
+distinguish Japanese Knotweed from other species. The arm uses integrated motors to
+generate consistent vibrations and measure how plant stalks respond. Because Japanese
+Knotweed has a different structural response compared to other plants, the system can detect it
+based on its oscillation patterns.
+GPS Tracking and App Integration
+A high-precision GPS module is included to ensure the drone can be tracked and recovered in
+all situations. The GPS system connects directly to a mobile application that provides real-time
+location data. A Raspberry Pi enables communication between the drone and the app, allowing
+the user to monitor and control the drone during operation.
+System Integration
+All components of the project work together in a single system. Flight data, vibration analysis,
+and GPS location are combined into one interface, allowing the user to view and interpret
+information in real time. This integration makes the system more efficient and easier to use in
+practical scenarios.
+How It Works
 
-download the docker-compose.yml file and run docker compose up
+The drone is flown over an area where plant detection is needed. The vibration-sensing arm
+interacts with plant stalks and records how they respond to controlled vibrations. This data is
+analyzed to determine whether the plant matches the characteristics of Japanese Knotweed. At
+the same time, the drone’s GPS logs the exact location, which is displayed in the mobile
+application for tracking and mapping.
+Technologies Used
+The project uses a quad-propeller drone system along with vibration motors and a GPS module.
+A Raspberry Pi serves as the main processing and communication unit. The software includes a
+custom-built mobile application that displays real-time data and allows user control. The sensing
+system is based on frequency and vibration response.
+Purpose and Impact
+Japanese Knotweed is an invasive species that can damage ecosystems and infrastructure.
+This project aims to improve the speed and accuracy of detection while reducing the need for
+manual surveying. By automating the process and providing real-time data, the system offers a
+practical solution for environmental monitoring.
+Future Improvements
+Future updates could include machine learning to improve detection accuracy, automated flight
+paths for more efficient coverage, and an expanded plant database for broader environmental
+analysis. Improvements to battery life and flight efficiency would also increase the system’s
+effectiveness.
+Team
+TSA Software Development Team (Saurish Srivastava, Jonathan No)
+License
+This project is created for educational purposes as part of the Technology Student Association.
