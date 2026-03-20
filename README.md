@@ -1,6 +1,3 @@
-Knotweed Detection Drone
-A TSA State Software Development Project
-Overview
 The Knotweed Detection Drone is an aerial system designed to identify Japanese Knotweed
 using vibration-based analysis. The goal of this project is to create a more efficient and scalable
 way to detect invasive plant species by combining drone flight, mechanical sensing, and
