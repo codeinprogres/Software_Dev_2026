@@ -2,7 +2,11 @@ The Knotweed Detection Drone is an aerial system designed to identify Japanese K
 using vibration-based analysis. The goal of this project is to create a more efficient and scalable
 way to detect invasive plant species by combining drone flight, mechanical sensing, and
 real-time GPS tracking into one system. This system is also intended to be used as an invasive species tracker for property, specifically to aid the visually impaired in keeping their houses safe as Knotweed can grow at a rapid pace in extremely large quantities. 
+
+The code here is intended to serve as a guide of our program. As our software runs on the hardware pieces on the drone (the raspberry pi pico w, and the raspberry pi 5) it is here to show our methodoloy and how we implemented it into our systems. We have attatched pictures of our models and our graphs regarding our research, as well as explanations for each code file. 
+
 Features
+
 Flight Capability
 The foundation of the project is a quad-propeller drone capable of stable, controlled flight. Each
 motor has been calibrated with counterweights to improve thrust-to-weight balance and reduce
@@ -46,7 +50,8 @@ Future updates could include machine learning to improve detection accuracy, aut
 paths for more efficient coverage, and an expanded plant database for broader environmental
 analysis. Improvements to battery life and flight efficiency would also increase the system’s
 effectiveness.
-Team
+
 TSA Software Development Team (Saurish Srivastava, Jonathan No)
+
 License
 This project is created for educational purposes as part of the Technology Student Association.
