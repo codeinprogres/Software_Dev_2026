@@ -4,7 +4,7 @@ way to detect invasive plant species by combining drone flight, mechanical sensi
 real-time GPS tracking into one system. This system is also intended to be used as an invasive species tracker for property, specifically to aid the visually impaired in keeping their houses safe as Knotweed can grow at a rapid pace in extremely large quantities. 
 
 The code here is intended to serve as a guide of our program. As our software runs on the hardware pieces on the drone (the raspberry pi pico w, and the raspberry pi 5) it is here to show our methodoloy and how we implemented it into our systems. We have attatched pictures of our models and our graphs regarding our research, as well as explanations for each code file. 
-(note-the files in the frontend are old and represent our regional idea, which is not the same as our idea for state. Our index.html outside of the frontend is the true application, which will require running it seperately as a basic html file which will be worked on tremendously). 
+(note-the files in the frontend are old and represent our regional idea, which is not the same as our idea for state. Our index.html outside of the frontend is the true application, which will require running it seperately as a basic html file which will be worked on tremendously). We have also included pictures of our model. 
 Features
 
 Flight Capability
